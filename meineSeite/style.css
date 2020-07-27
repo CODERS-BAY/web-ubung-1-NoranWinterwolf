@@ -1,0 +1,70 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    line-height: 1.4;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2rem;
+}
+
+nav {
+    font-size: 120%;
+    background-color: darkgreen;
+}
+nav ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+}
+nav a {
+    color: white;
+    display: block;
+    padding: 0.7rem;
+    text-decoration: none;
+}
+nav a:hover {
+    text-shadow: 2px 2px 2px black;
+    padding-top: 0.6rem;
+}
+nav a.this {
+    font-weight: bold;
+}
+main {
+    display: flex;
+    margin: auto;
+    max-width: 62rem;
+}
+article {
+    width: 50%;
+    margin: 0 2rem;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+p::first-letter {
+    font-size: larger;
+    font-weight: bolder;
+}
+
+footer {
+    background-color: darkgreen;
+    padding: 3rem;
+}
+
+@media screen and (max-width: 530px) {
+    main {
+        display: block;
+    }
+    article {
+        width: auto;
+    }
+}
+
+
+
