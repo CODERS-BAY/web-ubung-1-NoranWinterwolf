@@ -47,7 +47,7 @@ img {
     height: auto;
 }
 
-p::first-letter {
+article p::first-letter {
     font-size: larger;
     font-weight: bolder;
 }
